@@ -1,0 +1,19 @@
+name: lint
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - uses: volta-cli/action@v1
+
+    - run: npm install
+    - name: 静的解析とフォーマット
+      run: npm run lint-fix
