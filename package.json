@@ -16,6 +16,21 @@
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-vue": "^8.7.1",
     "ts-node": "^10.7.0",
-    "typescript": "^4.6.3"
+    "typescript": "^4.6.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robosyunn/typescript-mytemplate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robosyunn/typescript-mytemplate/issues"
+  },
+  "homepage": "https://github.com/robosyunn/typescript-mytemplate#readme",
+  "description": "",
+  "dependencies": {
+    "ts-node-dev": "^1.1.8"
   }
 }
